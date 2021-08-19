@@ -30,6 +30,8 @@ img{
 @media (max-width: 780px) {
     .title{
         flex-direction: column;
+        margin-left:10px;
+        margin-right:10px;
     }
     .img{
         max-width: 200px;
