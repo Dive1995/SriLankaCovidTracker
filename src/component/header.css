@@ -12,7 +12,7 @@
 }
 
 .img{
-    max-width: 80px;
+    max-width: 150px;
 }
 
 img{
@@ -27,7 +27,7 @@ img{
     color: #F87171;
 }
 
-@media (max-width: 710px) {
+@media (max-width: 780px) {
     .title{
         flex-direction: column;
     }

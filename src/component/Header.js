@@ -6,7 +6,7 @@ function Main() {
         <div className="header">
             <div className="title">
                 <div className="img">
-                    <img src="lk-flag.jpeg" alt="" />
+                    <img src="covid2.png" alt="" />
                 </div>
                 <h1>Sri Lanka Covid-19 Tracker</h1>
             </div>
