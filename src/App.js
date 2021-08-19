@@ -1,6 +1,7 @@
 import Header from "./component/Header";
 import React, { useEffect, useState } from 'react'
 import Local from "./component/Local";
+import "./app.css"
 
 const url = "https://hpb.health.gov.lk/api/get-current-statistical";
 

@@ -23,4 +23,16 @@ img{
     font-size: 3rem;
 }
 
+.header h3{
+    color: #F87171;
+}
 
+@media (max-width: 710px) {
+    .title{
+        flex-direction: column;
+    }
+    .img{
+        max-width: 200px;
+        /* display: none; */
+    }
+ }
