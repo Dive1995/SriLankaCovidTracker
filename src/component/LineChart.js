@@ -1,7 +1,7 @@
 import React from 'react'
 import './linechart.css'
-import {Bar, Line} from 'react-chartjs-2'
-import reactDom from 'react-dom';
+import {Line} from 'react-chartjs-2'
+
 
 
 function LineChart({data}) {
@@ -25,7 +25,7 @@ function LineChart({data}) {
                     {
                         label:"Recovered Cases",
                         data:recovered.map((item,index) => {
-                            if(item == 0 && index > 60){
+                            if(item === 0 && index > 60){
                                 return maxRecoveredCases;
                             }
                             return item;
