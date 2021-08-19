@@ -1,0 +1,25 @@
+.card{
+    background-color: rgb(233, 139, 139);
+    min-width: 150px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    line-height: 20px;
+}
+
+p{
+    font-size: 14px;
+}
+
+
+
+.card h2{
+    font-size: 1.5rem;
+    color: #4B5563;
+}
+
+span p{
+    color: #6B7280;
+}
